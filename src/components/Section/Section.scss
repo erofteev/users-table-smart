@@ -1,0 +1,16 @@
+.section {
+	&__header {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		margin-bottom: 1.875rem;
+		gap: 1.25rem;
+
+		&-title {
+			flex: 1;
+			font-weight: 700;
+			font-size: 2rem;
+			line-height: 143%;
+		}
+	}
+}

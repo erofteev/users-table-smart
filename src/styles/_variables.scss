@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+$font-family: 'DM Sans';
+
+$container: 1200px;
+
+// Color theme: dark
+$primary-color-dark: #1a1a1a;
+$secondary-color-dark: #303030;
+$grey-color-dark: #999;
+$grey-light-color-dark: #444;
+$text-color-dark: #fff;
+$hover-color-dark: #333;
+$border-color-dark: #242424;
+
+// Color theme: light
+$primary-color-light: #fff;
+$secondary-color-light: #fbfbfb;
+$grey-color-light: #9b9b9b;
+$grey-light-color-light: #ddd;
+$text-color-light: #232323;
+$hover-color-light: #f7f7f7;
+$border-color-light: #f1f1f1;

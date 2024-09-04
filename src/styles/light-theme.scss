@@ -1,0 +1,11 @@
+@import './variables';
+
+.light-theme {
+	--primary-color: #{$primary-color-light};
+	--secondary-color: #{$secondary-color-light};
+	--text-color: #{$text-color-light};
+	--grey-color: #{$grey-color-light};
+	--grey-light-color: #{$grey-light-color-light};
+	--hover-color: #{$hover-color-light};
+	--border-color: #{$border-color-light};
+}

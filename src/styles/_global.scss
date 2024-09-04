@@ -1,0 +1,46 @@
+@import './light-theme';
+@import './dark-theme';
+
+html {
+	font-size: max(0.9vw, 16px);
+}
+
+body {
+	overflow-x: hidden;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.4;
+	font-family: $font-family, sans-serif;
+	color: var(--text-color);
+	background-color: var(--primary-color);
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.main {
+	margin-top: 3.125rem;
+	margin-bottom: 3.125rem;
+}
+
+.container {
+	margin: 0 auto;
+	padding-right: max(calc(50% - $container / 2), 0.875rem);
+	padding-left: max(calc(50% - $container / 2), 0.875rem);
+}
+
+a {
+	color: var(--text-color);
+	transition: color 0.3s;
+
+	&:hover {
+		color: var(--grey-color);
+	}
+}
